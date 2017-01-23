@@ -40,6 +40,7 @@ REM     ECHO .
 REM     ping -n 2 127.0.0.1 >nul
 REM )
 
-CALL pdfx2.bat
+CALL pdf.bat
+CALL pdf.bat
 
 CALL view.bat
