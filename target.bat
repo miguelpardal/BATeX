@@ -17,7 +17,5 @@ REM You should have received a copy of the GNU General Public License
 REM along with this program.  If not, see <http://www.gnu.org/licenses/>.
 REM 
 
-CALL target.bat
-
-REM Invoke bibliography generation tool
-bibtex %BATeX_TARGET%
+REM Set target name environment variable
+SET BATeX_TARGET=paper
